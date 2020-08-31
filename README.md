@@ -1,6 +1,6 @@
 # new_web
 
-> A Vue.js project
+> 为blueberrypie的重构项目
 
 ## Build Setup
 
