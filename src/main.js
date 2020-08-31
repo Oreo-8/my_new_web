@@ -4,7 +4,6 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Antd from 'ant-design-vue';
-import App from './App';
 import 'ant-design-vue/dist/antd.css';
 import axios from 'axios'
 
