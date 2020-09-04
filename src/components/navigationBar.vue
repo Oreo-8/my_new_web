@@ -1,6 +1,6 @@
 <template>
   <div id="my-bar">
-    <a-menu v-model="current" mode="horizontal">
+    <a-menu v-model="current" mode="horizontal" theme="dark">
       <a-menu-item key="mail">
         <a-icon type="home" />主页
       </a-menu-item>
