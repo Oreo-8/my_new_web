@@ -5,6 +5,7 @@
         <a-row style="height: 100%;">
           <a-col class="col-1" :span="10">
             <!-- 图标 -->
+            <img :src="src" style="height: 100%" />
           </a-col>
           <a-col class="col-2" :span="10">
             <!-- 菜单 -->
@@ -49,9 +50,12 @@ export default {
   },
   data() {
     return {
-      src: "../static/Blueberry.png",
+      src: require("../assets/logo.png"),
     };
   },
+  created() {},
+  mounted() {},
+  updated() {},
 };
 </script>
 <style scoped>
