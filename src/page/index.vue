@@ -3,11 +3,11 @@
     <a-layout>
       <a-layout-header class="i-header">
         <a-row style="height: 100%;">
-          <a-col class="col-1" :span="10">
+          <a-col class="col-1" :span="12">
             <!-- 图标 -->
             <img :src="src" style="height: 100%" />
           </a-col>
-          <a-col class="col-2" :span="10">
+          <a-col class="col-2" :span="8">
             <!-- 菜单 -->
             <navigation-bar class="n-bar" />
           </a-col>
