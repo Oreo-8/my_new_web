@@ -22,5 +22,8 @@ export default {
       color: "#1890ff",
     };
   },
+  methods: {
+    handleMenuClick() {},
+  },
 };
 </script>

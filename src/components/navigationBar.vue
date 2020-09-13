@@ -1,6 +1,6 @@
 <template>
   <div id="my-bar">
-    <a-menu v-model="current" mode="horizontal" theme="dark" :selectable="true">
+    <a-menu v-model="current" mode="horizontal" theme="dark" :selectable="false">
       <a-menu-item key="mail">
         <a-icon type="home" />主页
       </a-menu-item>
@@ -23,7 +23,7 @@
 export default {
   data() {
     return {
-      current: ["mail"],
+      current: [],
     };
   },
 };
